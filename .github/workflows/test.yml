@@ -21,7 +21,7 @@ jobs:
         run: python -m playwright install --with-deps
       - name: run tests
         run: |
-          cd Website
+          cd C:\Users\User\PycharmProjects\cubeit\Website
           python -m http.server 8000 &
           cd ..
           pytest -v
